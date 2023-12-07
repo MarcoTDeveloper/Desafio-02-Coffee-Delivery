@@ -34,7 +34,7 @@ export const IconWrapper = styled.button.attrs({
     height: 0.875rem;
 
     border: none;
-    background-color: none;
+    background: none;
 
     color: ${({theme}) => theme.color["brand-purple"]};
 
