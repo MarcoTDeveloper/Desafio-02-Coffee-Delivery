@@ -7,7 +7,7 @@ export function CoffeeCartCard() {
     return(
         <CoffeeCartCardContainer>
             <div>
-                <img src="" />
+                <img src="public/coffees/tradicional.png" />
                 <div>
                     <RegularText color="subtitle">
                         Expresso Tradicional
