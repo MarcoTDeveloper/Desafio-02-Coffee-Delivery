@@ -1,5 +1,12 @@
+import { SelectedCoffees } from "./components/SelectedCoffees";
+import { ShoppingCartForm } from "./components/ShoppingCartOrderForm";
+import { ShoppingCartContainer } from "./styles";
+
 export function ShoppingCart() {
     return(
-        <h1>ShoppingCart</h1>
+        <ShoppingCartContainer className="container">
+            <ShoppingCartForm />
+            <SelectedCoffees />
+        </ShoppingCartContainer>
     )
 }

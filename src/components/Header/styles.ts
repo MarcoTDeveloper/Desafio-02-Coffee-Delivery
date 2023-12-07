@@ -7,6 +7,10 @@ export const HeaderContainer = styled.header`
     display: flex;
     align-items: center;
     justify-content: center;
+    position: sticky;
+    top: 0;
+    left: 0;
+    z-index: 5;
 
     background-color: ${({theme}) => theme.color["base-background"]};
 
@@ -32,10 +36,6 @@ export const HeaderButton = styled.button<ButtonProps>`
     display: flex;
     align-items: center;
     justify-content: center;
-    position: sticky;
-    top: 0;
-    left: 0;
-    z-index: 5;
 
     gap: 0.25rem;
 
