@@ -29,7 +29,7 @@ export const ButtonsContainer = styled.div`
 `
 
 interface ButtonProps {
-    buttonColor: "purple" | "yellow";
+    color: "purple" | "yellow";
 }
 
 export const HeaderButton = styled.button<ButtonProps>`
@@ -50,13 +50,13 @@ export const HeaderButton = styled.button<ButtonProps>`
 
     font-size: ${({theme}) => theme.textSize["text-regular-s"]};
 
-    ${({ buttonColor ,theme}) => css`
-        background-color: ${theme.color[`brand-${buttonColor}-light`]};
-        color: ${theme.color[`brand-${buttonColor}-dark`]};
+    ${({ color ,theme}) => css`
+        background-color: ${theme.color[`brand-${color}-light`]};
+        color: ${theme.color[`brand-${color}-dark`]};
     ` }
 
-    ${({ buttonColor ,theme}) => 
-    buttonColor === "purple" && 
+    ${({ color ,theme}) => 
+    color === "purple" && 
     css`
         svg {
             color: ${theme.color[`brand-purple`]};

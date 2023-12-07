@@ -14,13 +14,13 @@ export function Header() {
                     </NavLink>
                 <ButtonsContainer>
 
-                    <HeaderButton buttonColor="purple">
+                    <HeaderButton color="purple">
                         <MapPin size={20} weight="fill" />
                         Arcos, MG
                     </HeaderButton>
 
                     <NavLink to={"/shopping-cart"}>
-                        <HeaderButton buttonColor="yellow">
+                        <HeaderButton color="yellow">
                             <ShoppingCart size={20} weight="fill" />
                         </HeaderButton>
                     </NavLink>
