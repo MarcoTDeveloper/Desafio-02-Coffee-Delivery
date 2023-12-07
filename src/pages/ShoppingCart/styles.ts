@@ -5,6 +5,7 @@ export const ShoppingCartContainer = styled.form`
     display: flex;
     justify-content: space-between;
     gap: 2rem;
+    margin-bottom: 8rem;
 `
 
 export const SectionBaseStyle = styled.div`

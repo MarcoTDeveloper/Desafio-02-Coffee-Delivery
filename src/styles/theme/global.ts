@@ -6,6 +6,25 @@ export const GlobalStyle = createGlobalStyle`
       padding: 0;
       box-sizing: border-box;
       outline: none;
+
+      ::-webkit-scrollbar {
+      width: 1rem;
+      }
+
+      ::-webkit-scrollbar-track {
+      background: ${({theme}) => theme.color["brand-purple-light"]};
+      border-radius: 50px;
+      }
+
+      ::-webkit-scrollbar-thumb {
+      border-radius: 50px;
+      background: ${({theme}) => theme.color["brand-purple"]};
+      }
+
+      ::-webkit-scrollbar-thumb:hover {
+      background: ${({theme}) => theme.color["brand-yellow"]};
+    
+    }
     }
 
     body {
