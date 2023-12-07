@@ -21,7 +21,7 @@ export function OrderConfirmed() {
                 <OrderDetailsContainer>
                     <IconInfos
                         icon={<MapPin weight="fill"/>}
-                        iconcolor={color["brand-purple"]}
+                        color={color["brand-purple"]}
                         text={
                         <RegularText>
                             Entrega em <strong>Rua João Daniel Martinelli, 102</strong>
@@ -32,7 +32,7 @@ export function OrderConfirmed() {
 
                     <IconInfos
                         icon={<Clock weight="fill"/>}
-                        iconcolor={color["brand-yellow"]}
+                        color={color["brand-yellow"]}
                         text={
                         <RegularText>
                             Previsão de entrega
@@ -43,7 +43,7 @@ export function OrderConfirmed() {
 
                         <IconInfos
                         icon={<CurrencyDollar weight="fill"/>}
-                        iconcolor={color["brand-yellow-dark"]}
+                        color={color["brand-yellow-dark"]}
                         text={
                         <RegularText>
                             Pagamento na entrega

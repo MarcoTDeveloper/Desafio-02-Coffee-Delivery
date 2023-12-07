@@ -26,25 +26,25 @@ export function Intro() {
 
                 <IntroGoodPointsContainer>
                     <IconInfos
-                        iconcolor={color["brand-yellow-dark"]}
+                        color={color["brand-yellow-dark"]}
                         icon={<ShoppingCart weight="fill" />}
                         text="Compra simples e segura"
                     />
                     
                     <IconInfos
-                        iconcolor={color["base-text"]}
+                        color={color["base-text"]}
                         icon={<Package weight="fill" />}
                         text="Embalagem mantem o café intacto"
                     />
                     
                     <IconInfos
-                        iconcolor={color["brand-yellow"]}
+                        color={color["brand-yellow"]}
                         icon={<Timer weight="fill" />}
                         text="Entrega rápida e rastreada"
                     />
 
                     <IconInfos
-                        iconcolor={color["brand-purple"]}
+                        color={color["brand-purple"]}
                         icon={<Coffee weight="fill" />}
                         text="O café chega fresquinho até voçê"
                     />
