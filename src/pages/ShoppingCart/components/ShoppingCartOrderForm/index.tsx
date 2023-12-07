@@ -1,5 +1,5 @@
 import { useTheme } from "styled-components";
-import { TitleText } from "../../../../../components/TextTypes";
+import { TitleText } from "../../../../components/TextTypes";
 import { SectionTitle } from "../SectionTitle";
 import { FormSectionContainer, ShoppingCartFormContainer } from "./styles";
 import { MapPinLine, CurrencyDollar } from "phosphor-react"

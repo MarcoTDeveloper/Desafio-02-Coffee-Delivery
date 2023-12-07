@@ -1,4 +1,4 @@
-import { TitleText } from "../../../../../components/TextTypes";
+import { TitleText } from "../../../../components/TextTypes";
 import { CoffeeCartCard } from "../CoffeeCartCard";
 import { ConfirmationSection } from "./ConfirmationSection";
 import { DetailsContainer, SelectedCoffeesContainer } from "./styles";

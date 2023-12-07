@@ -1,6 +1,6 @@
 import { Trash } from "phosphor-react";
-import { QuantityInput } from "../../../../../components/QuantityInput";
-import { RegularText } from "../../../../../components/TextTypes";
+import { QuantityInput } from "../../../../components/QuantityInput";
+import { RegularText } from "../../../../components/TextTypes";
 import { ActionsContainer, CoffeeCartCardContainer, RemoveButton } from "./styles";
 
 export function CoffeeCartCard() {

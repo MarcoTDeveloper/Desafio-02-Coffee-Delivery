@@ -1,8 +1,8 @@
-import { RegularText, TitleText } from "../../../components/TextTypes";
+import { RegularText, TitleText } from "../../components/TextTypes";
 import { OrderConfirmedContainer, OrderDetailsContainer } from "./styles";
 
-import confirmedOrderIllustration from "../../../assets/confirmed-image.svg";
-import { IconInfos } from "../../../components/IconInfos";
+import confirmedOrderIllustration from "../../assets/confirmed-image.svg";
+import { IconInfos } from "../../components/IconInfos";
 
 import { MapPin, Clock, CurrencyDollar } from "phosphor-react";
 import { useTheme } from "styled-components";

@@ -1,5 +1,5 @@
-import { Button } from "../../../../../components/Button";
-import { RegularText } from "../../../../../components/TextTypes";
+import { Button } from "../../../../components/Button";
+import { RegularText } from "../../../../components/TextTypes";
 import { ConfirmationSectionContainer } from "./styles";
 
 export function ConfirmationSection() {

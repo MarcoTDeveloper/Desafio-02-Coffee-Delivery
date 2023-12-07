@@ -1,8 +1,8 @@
 import { Routes, Route } from "react-router-dom";
 import { Home } from "./pages/Home";
-import { ShoppingCart } from "./pages/Home/ShoppingCart";
+import { ShoppingCart } from "./pages/ShoppingCart";
 import { DefaultLayout } from "./layout/DefaultLayout";
-import { OrderConfirmed } from "./pages/Home/OrderConfirmed";
+import { OrderConfirmed } from "./pages/OrderConfirmed";
 
 export function Routers() {
     return(
