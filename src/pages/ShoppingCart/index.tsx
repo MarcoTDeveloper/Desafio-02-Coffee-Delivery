@@ -5,6 +5,12 @@ import * as zod from "zod";
 import { zodResolver } from "@hookform/resolvers/zod";
 import { useForm, FormProvider } from "react-hook-form";
 
+enum PaymentMethods {
+    credit = "credit",
+    debit = "debit",
+    money = "money",
+}
+
 const confirmOrderValidationSchema = zod.object({
     cep: zod.string().min(1, "Informe seu CEP"),
     street: zod.string().min(1, "Informe sua Rua"),
@@ -13,6 +19,11 @@ const confirmOrderValidationSchema = zod.object({
     district: zod.string().min(1, "Informe seu Bairro"),
     city: zod.string().min(1, "Informe sua Cidade"),
     uf: zod.string().min(1, "Informe a UF"),
+    paymentMethod: zod.nativeEnum(PaymentMethods, {
+        errorMap:() => {
+            return { message: "Informe o método de pagamento" }
+        }
+    })
 })
 
 export type OrderData = zod.infer<typeof confirmOrderValidationSchema>
