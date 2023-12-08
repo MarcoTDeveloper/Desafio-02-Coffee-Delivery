@@ -4,13 +4,13 @@ import { PaymentMethodsContainer } from "./styles";
 import { useFormContext } from "react-hook-form";
 import { RegularText } from "../../../../components/TextTypes";
 
-const paymentMethods = {
+export const paymentMethods = {
     credit: {
         label: "Cartão de credito",
         icon: <CreditCard size={16}/>
     },
     debit: {
-        label: "Cartão de debit",
+        label: "Cartão de debito",
         icon: <Bank size={16}/>
     },
     money: {
@@ -28,7 +28,7 @@ export function PaymentMethods () {
         <PaymentMethodsContainer>
             {Object.entries(paymentMethods).map(([key, {label, icon}]) => (
                 <PaymentMethodInput 
-                    key={label} id={key} icon={icon} label={label} value={key} {...register("paymentMethods")}
+                    key={label} id={key} icon={icon} label={label} value={key} {...register("paymentMethod")}
                 />
             ))}
             {paymentMethodError && <RegularText>{paymentMethodError}</RegularText>}

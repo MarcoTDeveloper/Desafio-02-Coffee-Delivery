@@ -42,6 +42,6 @@ export const PaymentMethodsContainer = styled.div`
 
     p {
         grid-column: span 3;
-        ${({theme}) => theme.color["base-error"]}
+        color: ${({theme}) => theme.color["base-error"]};
     }
 `
